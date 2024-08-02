@@ -1,62 +1,112 @@
 .custom-form-container {
-    background-color: #f0f4f8;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-  
-  .custom-form-content {
-    flex: 1;
-    margin-right: 20px;
-  }
-  
-  .custom-form-label {
-    font-weight: bold;
-    color: #1e40af;
-  }
-  
-  .custom-form-input {
-    border: 2px solid #1e40af;
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .custom-form-button {
-    background-color: #1e40af;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .custom-form-button:hover {
-    background-color: #1a368a;
-  }
-  
-  .custom-form-error {
-    color: #e3342f;
-    font-weight: bold;
-  }
-  
-  .custom-form-token-id {
-    color: #38a169;
-    font-weight: bold;
-  }
-  
-  .custom-form-image {
-    max-width: 500px;
-    border-radius: 30px;
-  }
+  background-color: #f0f4f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
 
-  .custom-form-title {
-    color: #1e40af; /* Azul */
-    text-align: center; /* Centralizar */
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
+.custom-form-content {
+  flex: 1;
+}
+
+.custom-form-label {
+  font-weight: bold;
+  color: #04070f;
+}
+
+.custom-form-input {
+  border: 2px solid #131313;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.custom-form-button {
+  background-color: #1e40af;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.custom-form-button:hover {
+  background-color: #1a368a;
+}
+
+.custom-form-error {
+  color: #e3342f;
+  font-weight: bold;
+}
+
+.custom-form-token-id {
+  color: #38a169;
+  font-weight: bold;
+}
+
+.custom-form-image {
+  max-width: 400px;
+  border-radius: 30px;
+}
+
+.custom-form-title {
+  color: #1e40af;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.emitir-voo-image {
+  max-width: 200px;
+  margin-left: 2px;
+  border-radius: 1px;
+}
+
+.emitir-milhas-image {
+  max-width: 1000px;
+  margin-left: 10px;
+  border-radius: 30px;
+}
+
+.mint-form-image {
+  max-width: 400px;
+  border-radius: 20px;
+}
+
+.custom-form-title {
+  color: #1e40af;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.mint-image-container {
+  max-width: 400px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.mint-completed-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.mint-completed-image {
+  max-width: 400px;
+  border-radius: 20px;
+}
+
+.logo-image {
+  max-height: 40px; /* Ajuste o tamanho conforme necessário */
+  margin-right: 15px; /* Espaço entre a logo e o texto */
+}
+
+header .text-xl {
+  margin-left: 15px; /* Espaço entre a logo e o título */
+}
